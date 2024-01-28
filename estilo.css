@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Rubik;
+
+}
+body{
+    background-image: url(img/Fondo.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+h1{
+    width: fit-content;
+    background-color: #5EAEEF;
+    margin: 40px auto;
+    border-radius: 22px;
+    box-shadow: 5px 5px 0 #000;
+    padding: 20px 30px;
+    color: #fff
+}
+
+ /*Patalla busqueda*/
+
+.contenedor {
+    background-color: #fff;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 35px;
+    margin: 40px auto;
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+    
+
+}
+
+.buscador button {
+    font-size: 14px;
+    background-color: #5EAEEF;
+    padding: 5px 0;
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    width: 60px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buscador button:hover{
+    transform: scale(1.2);
+}
+
+.buscador input {
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 2px solid #5EAEEF;
+    outline: none;
+    color: #222a43;
+  }
+
+
+/*Patalla de datos*/
+
+#datosPais {
+    background-color: #F6F6F6;
+    border-radius: 30px;
+}
+
+#datosPais .Contenedor .data h4{
+
+    display:inline-flex;
+    margin-top: 5px;
+
+}
+
+#datosPais .flag-img {
+    display: block;
+    width: 65%;
+    min-width: 25%;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 25px;
+  }
+  
+
+
+ /*Footer*/   
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #000;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+}
